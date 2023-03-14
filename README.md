@@ -28,9 +28,9 @@ nano install.sh
 5. Change the following fields:
 ```
 Plex:
-- PLEX_CLAIM: "change_me"
-- ADVERTISE_IP: "http://your_external_ip:32400/"
-- TZ: "Your_Time_Zone"
+- PLEX_CLAIM=change_me
+- ADVERTISE_IP=http://your_external_ip:32400/
+- TZ=Your_Time_Zone
 - /path/to/your/media:/media
 ```
 ```
@@ -51,4 +51,10 @@ Jellyfin:
 ```
 
 
-Everything will now install and start automatically. You can navigate to each application by going to http://your_external_ip:port/ or http://localhost:port/ in a web browser.
+Everything will now install and start automatically. You can get to each application by navigating to each url below:
+
+- NGINX Proxy Manager: http://localhost:81 OR http://your_external_ip:81
+- Plex: http://localhost:32400/web OR http://your_external_ip:32400/web
+- Emby: http://localhost:8096 OR http://your_external_ip:8096
+- Jellyfin: http://localhost:8097 OR http://your_external_ip:8097
+- Portainer: http://localhost:9000 OR http://your_external_ip:9000
