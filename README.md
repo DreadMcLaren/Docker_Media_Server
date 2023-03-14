@@ -30,7 +30,7 @@ nano install.sh
 Plex:
 - PLEX_CLAIM: "change_me"
 - ADVERTISE_IP: "http://your_external_ip:32400/"
-- TZ: "Your_Time_Zone"
+- TZ:=Your_Time_Zone
 - /path/to/your/media:/media
 ```
 ```
