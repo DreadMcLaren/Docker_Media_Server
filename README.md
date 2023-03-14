@@ -50,4 +50,4 @@ Jellyfin:
 ./install.sh
 ```
 
-Everything will now install and start automatically. You can navigate to each application by going to http://your_external_ip:port/ or http://localhost:port/
+Everything will now install and start automatically. You can navigate to each application by going to http://your_external_ip:port/ or http://localhost:port/ in a web browser.
