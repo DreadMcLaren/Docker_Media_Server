@@ -12,10 +12,10 @@ git clone https://github.com/DreadMcLaren/Docker_Media_Server.git
 
 2. Navigate to where you saved the file
 ```
-cd path/to/file
+cd path/to/Docker_Media_Server
 ```
 
-3. Make install.sh executable by running
+3. Make ```install.sh``` executable by running
 ```
 chmod +x install.sh
 ```
@@ -43,11 +43,12 @@ Jellyfin:
 - /path/to/your/media:/media
 ```
 
-6. Save the file (CTRL + X) and keep the filename the same
+6. Save the file ```(CTRL + X)``` and keep the filename the same
 
 7. Execute the script:
 ```
 ./install.sh
 ```
+
 
 Everything will now install and start automatically. You can navigate to each application by going to http://your_external_ip:port/ or http://localhost:port/ in a web browser.
