@@ -59,9 +59,11 @@ services:
     ports:
       - 32400:32400/tcp
     environment:
-      PLEX_CLAIM: "change_me"
-      ADVERTISE_IP: "http://your_external_ip:32400/"
-      TZ: "Your_Time_Zone"
+      - PLEX_CLAIM=change_me
+      - ADVERTISE_IP=http://your_external_ip:32400/
+      - TZ=Your_Time_Zone
+    devices:
+      - /dev/dri:/dev/dri
     volumes:
       - ./config:/config
       - ./transcode:/transcode
@@ -79,9 +81,11 @@ services:
       - 8096:8096
       - 8920:8920
     environment:
-      UID: 1000
-      GID: 1000
-      GIDLIST: 1000
+      - UID=1000
+      - GID=1000
+      - GIDLIST=1000
+    devices:
+      - /dev/dri:/dev/dri
     volumes:
       - ./config:/config
       - ./cache:/cache
@@ -100,6 +104,8 @@ services:
       - 8921:8920
     environment:
       - TZ=Your_Time_Zone
+    devices:
+      - /dev/dri:/dev/dri
     volumes:
       - ./config:/config
       - ./cache:/cache
