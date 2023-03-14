@@ -3,7 +3,7 @@ Install Docker, Docker-Compose, Nginx Proxy Manager, Portainer, Plex, Emby and J
 
 Installation script for Linux that installs Docker, Docker Compose, NGINX Proxy Manager, Plex, Emby, and Jellyfin. (I'm using Ubuntu)
 
-Instructions:
+# Instructions:
 
 1. Clone the github repository
 
