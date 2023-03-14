@@ -53,8 +53,8 @@ Jellyfin:
 
 Everything will now install and start automatically. You can get to each application by navigating to each url below:
 
-- NGINX Proxy Manager: http://localhost:81 OR http://your_external_ip:81
-- Plex: http://localhost:32400/web OR http://your_external_ip:32400/web
-- Emby: http://localhost:8096 OR http://your_external_ip:8096
-- Jellyfin: http://localhost:8097 OR http://your_external_ip:8097
-- Portainer: http://localhost:9000 OR http://your_external_ip:9000
+- **NGINX Proxy Manager:** http://localhost:81 OR http://your_external_ip:81
+- **Plex:** http://localhost:32400/web OR http://your_external_ip:32400/web
+- **Emby:** http://localhost:8096 OR http://your_external_ip:8096
+- **Jellyfin:** http://localhost:8097 OR http://your_external_ip:8097
+- **Portainer:** http://localhost:9000 OR http://your_external_ip:9000
