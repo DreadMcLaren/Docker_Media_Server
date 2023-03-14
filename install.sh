@@ -61,7 +61,7 @@ services:
     environment:
       PLEX_CLAIM: "change_me"
       ADVERTISE_IP: "http://your_external_ip:32400/"
-      TZ: "Your_Time_Zone"
+      TZ:=Your_Time_Zone
     volumes:
       - ./config:/config
       - ./transcode:/transcode
