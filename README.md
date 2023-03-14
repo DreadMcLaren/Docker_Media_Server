@@ -3,7 +3,7 @@ Install Docker, Docker-Compose, Nginx Proxy Manager, Portainer, Plex, Emby and J
 
 # Instructions:
 
-The following instructions were created using Ubuntu.
+**The following instructions were created using Ubuntu and assumes you're logged in as root or a user with sudo privileges.**
 
 1. Clone the github repository
 ```
