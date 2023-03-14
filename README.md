@@ -28,9 +28,9 @@ nano install.sh
 5. Change the following fields:
 ```
 Plex:
-- PLEX_CLAIM="insert_claim_token_here"
-- ADVERTISE_IP="http://your_external_ip:32400/"
-- TZ:=Your_Time_Zone
+- PLEX_CLAIM: "change_me"
+- ADVERTISE_IP: "http://your_external_ip:32400/"
+- TZ: "Your_Time_Zone"
 - /path/to/your/media:/media
 ```
 ```
