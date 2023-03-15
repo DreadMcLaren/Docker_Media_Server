@@ -51,7 +51,7 @@ sudo ./install.sh
 ```
 
 
-Everything will now install and start automatically. You can get to each application by navigating to the url below:
+Everything will now download, install and start automatically. You can get to each application by navigating to the url below:
 
 - **NGINX Proxy Manager:** http://localhost:81 **OR** http://your_external_ip:81
 - **Plex:** http://localhost:32400/web **OR** http://your_external_ip:32400/web
