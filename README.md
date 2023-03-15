@@ -7,22 +7,22 @@ Install Docker, Docker-Compose, Nginx Proxy Manager, Portainer, Plex, Emby and J
 
 1. Clone the github repository
 ```
-git clone https://github.com/DreadMcLaren/Docker_Media_Server.git
+sudo git clone https://github.com/DreadMcLaren/Docker_Media_Server.git
 ```
 
-2. Navigate to where you saved the file
+2. Navigate to where you cloned the script file
 ```
-cd path/to/Docker_Media_Server
+sudo cd path/to/Docker_Media_Server
 ```
 
 3. Make ```install.sh``` executable by running
 ```
-chmod +x install.sh
+sudo chmod +x install.sh
 ```
 
 4. Open the script and adjust the values to meet your requirements
 ```
-nano install.sh
+sudo nano install.sh
 ```
 
 5. Change the following fields:
@@ -47,7 +47,7 @@ Jellyfin:
 
 7. Execute the script:
 ```
-./install.sh
+sudo ./install.sh
 ```
 
 
