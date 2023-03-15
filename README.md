@@ -1,5 +1,5 @@
 # Docker Media Server
-Install Docker, Docker-Compose, Nginx Proxy Manager, Portainer, Plex, Emby and Jellyfin on Linux.
+Install Docker, Docker-Compose, Nginx Proxy Manager, Portainer, Plex, Emby, Jellyfin and Watchtower on Linux.
 
 # Instructions:
 
