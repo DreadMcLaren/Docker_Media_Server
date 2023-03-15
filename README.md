@@ -10,7 +10,7 @@ Install Docker, Docker-Compose, Nginx Proxy Manager, Portainer, Plex, Emby and J
 sudo git clone https://github.com/DreadMcLaren/Docker_Media_Server.git
 ```
 
-2. Navigate to where you cloned the script file
+2. Navigate to where you cloned ```install.sh```
 ```
 sudo cd path/to/Docker_Media_Server
 ```
