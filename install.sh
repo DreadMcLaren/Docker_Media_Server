@@ -15,7 +15,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 
 # Create directories for each service
-mkdir -p ~/nginx-proxy-manager ~/plex ~/emby ~/jellyfin ~/portainer
+mkdir -p ~/nginx-proxy-manager ~/plex ~/emby ~/jellyfin ~/portainer ~/watchtower
 
 # NGINX Proxy Manager
 cat > ~/nginx-proxy-manager/docker-compose.yml <<EOL
