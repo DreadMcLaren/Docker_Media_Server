@@ -59,9 +59,9 @@ services:
     ports:
       - 32400:32400/tcp
     environment:
-      - PLEX_CLAIM=change_me
+      - PLEX_CLAIM=change_me # Retrieve at https://www.plex.tv/claim/
       - ADVERTISE_IP=http://your_external_ip:32400/
-      - TZ=Your_Time_Zone
+      - TZ=Your_Time_Zone # IE: America/Chicago
     devices:
       - /dev/dri:/dev/dri
     volumes:
@@ -103,7 +103,7 @@ services:
       - 8097:8096
       - 8921:8920
     environment:
-      - TZ=Your_Time_Zone
+      - TZ=Your_Time_Zone # IE: America/Chicago
     devices:
       - /dev/dri:/dev/dri
     volumes:
