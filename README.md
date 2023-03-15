@@ -20,7 +20,7 @@ sudo cd path/to/Docker_Media_Server
 sudo chmod +x install.sh
 ```
 
-4. Open the script and adjust the values to meet your requirements
+4. Open ```install.sh``` and adjust the values to meet your requirements
 ```
 sudo nano install.sh
 ```
