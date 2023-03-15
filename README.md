@@ -25,7 +25,7 @@ sudo chmod +x install.sh
 sudo nano install.sh
 ```
 
-5. Change the following values:
+5. Required values to change:
 ```
 Plex:
 - PLEX_CLAIM=change_me
