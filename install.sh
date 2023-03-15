@@ -127,6 +127,17 @@ services:
       - ./data:/data
 EOL
 
+# Watchtower
+cat > ~/watchtower/docker-compose.yml <<EOL
+version: '3'
+services:
+  watchtower:
+    image: containrrr/watchtower
+    restart: always
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+EOL
+
 # Start NGINX Proxy Manager
 (cd ~/nginx-proxy-manager && docker-compose up -d)
 
@@ -141,3 +152,9 @@ EOL
 
 # Start Portainer
 (cd ~/portainer && docker-compose up -d)
+
+# Start Watchtower
+(cd ~/watchtower && docker-compose up -d)
+
+# Add a cron job for Watchtower to update containers weekly on Saturday at 2:00 AM local time of server.
+(crontab -l 2>/dev/null; echo "0 2 * * 6 cd ~/watchtower && docker-compose up -d") | crontab -
