@@ -28,19 +28,19 @@ sudo nano install.sh
 5. Required values to change:
 ```
 Plex:
-- PLEX_CLAIM=change_me
-- ADVERTISE_IP=http://your_external_ip:32400/
-- TZ=Your_Time_Zone
-- /path/to/your/media:/media
+PLEX_CLAIM=change_me
+ADVERTISE_IP=http://your_external_ip:32400/
+TZ=Your_Time_Zone
+/path/to/your/media:/media
 ```
 ```
 Emby:
-- /path/to/your/media:/media
+/path/to/your/media:/media
 ```
 ```
 Jellyfin:
-- TZ=Your_Time_Zone
-- /path/to/your/media:/media
+TZ=Your_Time_Zone
+/path/to/your/media:/media
 ```
 
 6. Save the file ```(CTRL + X)``` and keep the filename the same
